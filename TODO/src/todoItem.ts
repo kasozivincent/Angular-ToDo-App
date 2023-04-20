@@ -1,5 +1,4 @@
 export class TodoItem {
-    constructor(){
-        
-    }
+    
+    constructor(public task: string, status: boolean = false){}
 }
